@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Send Inquiry — P7 Global Trade | Get Export Pricing</title>
+  <meta name="description" content="Send a product inquiry to P7 Global Trade. Get competitive pricing for premium spices, dehydrated products, and dry fruits from India.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌶️</text></svg>">
+</head>
+<body>
+  <div class="topbar"><div class="container"><div class="topbar-left"><a href="mailto:p7exports@gmail.com">📧 p7exports@gmail.com</a><div class="topbar-divider"></div><a href="tel:+917709723053">📞 +91 77097 23053</a></div><div class="topbar-right"><span>🌍 Exporting to 20+ Countries</span></div></div></div>
+  <header class="header"><div class="container"><a href="index.html" class="logo"><div class="logo-mark">P7</div><div class="logo-text">P7 Global<small>Trade &amp; Exports</small></div></a><nav class="nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="products.html">Products</a><a href="contact.html">Contact</a><a href="inquiry.html" class="nav-cta">Get Quote</a></nav><div class="hamburger" onclick="this.classList.toggle('active');document.querySelector('.mobile-nav').classList.toggle('open');document.body.style.overflow=this.classList.contains('active')?'hidden':''"><span></span><span></span><span></span></div></div></header>
+  <div class="mobile-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="products.html">Products</a><a href="contact.html">Contact</a><a href="inquiry.html" class="active">Get Quote</a></div>
+
+  <section class="page-hero">
+    <div class="page-hero-bg"><img src="https://images.unsplash.com/photo-1494412574643-ff11b0a5eb95?w=1400&h=500&fit=crop&q=80" alt="Shipping Container"></div>
+    <div class="page-hero-overlay"></div>
+    <div class="container">
+      <span class="overline">Get a Quote</span>
+      <h1 class="heading-xl">Send <em>Inquiry</em></h1>
+      <p>Tell us your product requirements and our export team will respond with competitive pricing within 24 hours.</p>
+      <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Inquiry</span></div>
+    </div>
+  </section>
+
+  <section class="inquiry-section">
+    <div class="container">
+      <div class="inquiry-container">
+        <div class="form-card reveal">
+          <h3>Product Inquiry Form</h3>
+          <p style="color:var(--brown-500);font-size:14px;margin:-12px 0 24px;line-height:1.6">Fill out the form below with your product requirements. Our export team will review your inquiry and respond with detailed pricing, product specifications, and shipping options within 24 hours.</p>
+          <form id="inquiryForm">
+            <div class="form-row"><div class="form-group"><label>Full Name *</label><input type="text" name="name" placeholder="Your full name" required></div><div class="form-group"><label>Email *</label><input type="email" name="email" placeholder="you@company.com" required></div></div>
+            <div class="form-row"><div class="form-group"><label>Phone / WhatsApp *</label><input type="tel" name="phone" placeholder="+1 XXX XXX XXXX" required></div><div class="form-group"><label>Company Name</label><input type="text" name="company" placeholder="Your company name"></div></div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Product *</label>
+                <select name="product" required>
+                  <option value="">Select a product</option>
+                  <optgroup label="Red Onion"><option value="red-onion-powder">Red Onion Powder</option><option value="red-onion-flakes">Red Onion Flakes</option><option value="red-onion-minced">Red Onion Minced</option><option value="red-onion-chopped">Red Onion Chopped</option><option value="fried-red-onion">Fried Red Onion</option></optgroup>
+                  <optgroup label="White Onion"><option value="white-onion-powder">White Onion Powder</option><option value="white-onion-flakes">White Onion Flakes</option><option value="white-onion-minced">White Onion Minced</option></optgroup>
+                  <optgroup label="Pink Onion"><option value="pink-onion-powder">Pink Onion Powder</option><option value="pink-onion-flakes">Pink Onion Flakes</option></optgroup>
+                  <optgroup label="Garlic"><option value="garlic-powder">Garlic Powder</option><option value="garlic-flakes">Garlic Flakes</option><option value="garlic-minced">Garlic Minced</option><option value="garlic-granules">Garlic Granules</option></optgroup>
+                  <optgroup label="Dehydrated Powders"><option value="turmeric-powder">Turmeric Powder</option><option value="ginger-powder">Ginger Powder</option><option value="spinach-powder">Spinach Powder</option><option value="beetroot-powder">Beetroot Powder</option></optgroup>
+                  <optgroup label="Flakes"><option value="beetroot-flakes">Beetroot Flakes</option><option value="carrot-flakes">Carrot Flakes</option><option value="ginger-flakes">Ginger Flakes</option><option value="potato-flakes">Potato Flakes</option><option value="chilli-flakes">Chilli Flakes</option></optgroup>
+                  <optgroup label="Leaves"><option value="kasuri-methi">Kasuri Methi</option><option value="curry-leaves">Curry Leaves</option><option value="mint-leaves">Mint Leaves</option><option value="basil-leaves">Basil Leaves</option><option value="coriander-leaves">Coriander Leaves</option></optgroup>
+                  <optgroup label="Dry Fruits"><option value="cashews-w320">Cashews W320</option><option value="almonds">Almonds</option><option value="walnuts">Walnuts</option><option value="pistachios">Pistachios</option><option value="raisins">Raisins</option></optgroup>
+                </select>
+              </div>
+              <div class="form-group"><label>Quantity Required</label><input type="text" name="quantity" placeholder="e.g. 500 kg, 1 MT, 20ft container"></div>
+            </div>
+            <div class="form-group" style="margin-bottom:0"><label>Message / Requirements *</label><textarea name="message" rows="5" placeholder="Please include: destination country, preferred packaging (bulk bags, retail packs), any specific quality requirements (mesh size, moisture level), delivery timeline, and any certifications needed..." required></textarea></div>
+            <div class="form-submit"><button type="submit" class="btn btn-gold btn-submit">Send Inquiry <span class="arrow-icon">→</span></button></div>
+          </form>
+        </div>
+
+        <div style="margin-top:40px;text-align:center" class="reveal">
+          <p style="color:var(--brown-500);margin-bottom:18px">Need a faster response? Reach us directly</p>
+          <div style="display:flex;justify-content:center;gap:14px;flex-wrap:wrap">
+            <a href="https://wa.me/917709723053?text=Hello!%20I'd%20like%20to%20inquire%20about%20your%20export%20products.%20Please%20share%20pricing." target="_blank" class="btn btn-whatsapp">💬 WhatsApp Us</a>
+            <a href="mailto:p7exports@gmail.com" class="btn btn-outline">📧 Email Directly</a>
+            <a href="tel:+917709723053" class="btn btn-outline">📞 Call Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a href="index.html" class="logo"><div class="logo-mark">P7</div><div class="logo-text">P7 Global<small>Trade &amp; Exports</small></div></a><p>Premium merchant importer &amp; exporter of spices, dehydrated products, and dry fruits from India.</p><div class="footer-social"><a href="https://wa.me/917709723053" target="_blank">💬</a><a href="https://www.linkedin.com/in/jaya-kishanchandani" target="_blank">🔗</a><a href="mailto:p7exports@gmail.com">📧</a></div></div><div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="products.html">Products</a></li><li><a href="contact.html">Contact</a></li><li><a href="inquiry.html">Send Inquiry</a></li></ul></div><div class="footer-col"><h4>Products</h4><ul><li><a href="products.html?category=red-onion">Red Onion</a></li><li><a href="products.html?category=garlic">Garlic</a></li><li><a href="products.html?category=dehydrated-powders">Dehydrated Powders</a></li><li><a href="products.html?category=flakes">Flakes</a></li><li><a href="products.html?category=leaves">Leaves</a></li><li><a href="products.html?category=dry-fruits">Dry Fruits</a></li></ul></div><div class="footer-col"><h4>Get In Touch</h4><ul class="footer-contact"><li><span class="ico">📍</span> A-201, Radhe Heights, Bhat, Gandhinagar, Ahmedabad, India</li><li><span class="ico">📞</span> <a href="tel:+917709723053">+91 77097 23053</a></li><li><span class="ico">📧</span> <a href="mailto:p7exports@gmail.com">p7exports@gmail.com</a></li><li><span class="ico">🕐</span> Mon - Sat: 9 AM - 7 PM IST</li></ul></div></div><div class="footer-bottom"><span>&copy; 2024 P7 Global Trade. All rights reserved.</span><span>Designed by <a href="https://theunlocksales.in" target="_blank">The Unlock Sales</a></span></div></div></footer>
+  <a href="https://wa.me/917709723053?text=Hello!" target="_blank" class="wa-float">💬</a>
+  <script src="js/main.js"></script>
+</body>
+</html>
